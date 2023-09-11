@@ -1,4 +1,4 @@
-import Banner from "./Components/Banner/BAnner"
+import Banner from "./Components/Banner/Banner"
 import Brand from "./Components/Brand/Brand"
 import Header from "./Components/Header/Header"
 import LearnMore from "./Components/LearnMore/LearnMore"
