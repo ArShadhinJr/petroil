@@ -7,7 +7,7 @@ import logo4 from '../../assets/brand/Logo4.png'
 const Brand = () => {
   return (
       <section id="brand">
-          <div className="max-w-container mx-auto md:flex py-[117px]">
+          <div className="max-w-container md:justify-around mx-auto md:flex py-[117px]">
               <div>
                   <img src={logo1} alt="" />
               </div>
