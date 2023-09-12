@@ -1,10 +1,10 @@
-import logo from '../../assets/logo.png';
+import logo from '../../Assets/logo.png';
 import cert1 from '../../assets/fotter/Cert1.png'; 
 import cert2 from '../../assets/fotter/Cert2.png'; 
 
 const Footer = () => {
     return (
-        <div className="bg-[#1F1F1F]">
+        <footer className="bg-[#1F1F1F]">
             <div className="flex pt-[149px] pb-[170px] max-w-container mx-auto">
                 <div className="w-5/12">
                     <img src={logo} className="" />
@@ -88,7 +88,14 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </div>
+            <div className="footer-down bg-[#282828] py-[43px]">
+                <div className="max-w-container mx-auto">
+                    <p className='text-secondary '>© Copyright 2022 by AltDesain Studio – All right reserved.
+                </p>
+                </div>
+
+            </div>
+        </footer>
     
   )
 }
