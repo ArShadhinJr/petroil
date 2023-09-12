@@ -1,4 +1,6 @@
-import logo from '../../assets/logo.png'; 
+import logo from '../../assets/logo.png';
+import cert1 from '../../assets/fotter/Cert1.png'; 
+import cert2 from '../../assets/fotter/Cert2.png'; 
 
 const Footer = () => {
     return (
@@ -76,8 +78,14 @@ const Footer = () => {
                         <li className='mt-[15px]'>Privacy Policy</li>
                     </ul>
                 </div>
-                <div className="w-3/12">
-                    
+                <div className="w-3/12 flex text-base text-white justify-end mt-[32px]">
+                    <div>
+                        <p className='font-bold mb-[21px]'>Certificate</p>
+                    <div className='flex gap-x-5'>
+                        <div><img src={cert1} alt="" /></div>
+                        <div><img src={cert2} alt="" /></div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
