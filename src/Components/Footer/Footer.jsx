@@ -1,4 +1,4 @@
-import logo from '../../Assets/logo.png';
+import logo from '../../assets/Logo.png';
 import cert1 from '../../assets/fotter/Cert1.png'; 
 import cert2 from '../../assets/fotter/Cert2.png'; 
 
