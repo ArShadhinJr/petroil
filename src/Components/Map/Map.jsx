@@ -4,7 +4,7 @@ const Map = () => {
   return (
     <div>
           <div>
-              <img src={map} className='w-full min-w-fit' />
+              <img src={map} className='w-full' />
           </div>
           <div className="bg-primary py-[46px]">
               <div className='max-w-container mx-auto flex'>
