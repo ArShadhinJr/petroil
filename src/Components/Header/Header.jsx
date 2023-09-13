@@ -3,7 +3,7 @@ const Header = () => {
        
         <>
              <header className="header bg-[#282828] text-[white]">
-            <div className="max-w-container mx-auto md:flex">
+            <div className="max-w-container xl:mx-auto md:mx-12 mx-5 md:flex">
                 <div className="md:w-9/12 sm:flex py-4">
                     <div className="flex items-center me-[54px] relative md:after:block after:hidden after:content after:absolute after:top-0 after:right-[-27px] after:w-[1px] after:h-[16px] after:bg-[#5C6A92]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

@@ -5,7 +5,7 @@ import cert2 from '../../assets/fotter/Cert2.png';
 const Footer = () => {
     return (
         <footer className="bg-[#1F1F1F]">
-            <div className="flex pt-[149px] pb-[170px] max-w-container mx-auto">
+            <div className="flex pt-[149px] pb-[170px] max-w-container xl:mx-auto md:mx-12 mx-5">
                 <div className="w-5/12">
                     <img src={logo} className="" />
                     <div className='text-sm my-[33px] text-white'>
@@ -89,7 +89,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-down bg-[#282828] py-[43px]">
-                <div className="max-w-container mx-auto">
+                <div className="max-w-container xl:mx-auto md:mx-12 mx-5">
                     <p className='text-secondary '>© Copyright 2022 by AltDesain Studio – All right reserved.
                 </p>
                 </div>

@@ -21,8 +21,8 @@ const Services = () => {
     // Grid layout with 2 columns
     <div className="md:grid  grid-cols-2">
       {/* Left column */}
-      <div className="flex justify-end">
-        <div className="pt-[120px] pe-[149px]">
+      <div className="flex justify-end md:items-center md:mx-12 mx-5">
+        <div className=" xl:pe-[149px] md:pe-[80px]">
           <h3 className="text-[64px] leading-normal font-bold max-w-[421px]">
             Our Services
           </h3>
@@ -41,7 +41,7 @@ const Services = () => {
           key={index}
           className={`bg-no-repeat bg-cover bg-center relative py-[140px] px-[116px] after:contents-[''] after:w-full after:h-full after:top-0 after:left-0 after:bg-[#000] after:bg-opacity-50 after:absolute z-10 after:z-[-1]`}
         >
-          <div className="max-w-container mx-auto ">
+          <div>
             <h1 className="text-white font-bold mb-[19px] max-w-[691px] text-4xl leading-normal">
               {service.heading}
               

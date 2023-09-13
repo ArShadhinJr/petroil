@@ -19,8 +19,8 @@ const Blog = () => {
 
   return (
       
-      <div className="bg-[#F0F0F0] pt-[110px] pb-[165px]">
-              <div className="max-w-container mx-auto md:grid md:grid-cols-3 sm:grid-cols-2 gap-x-[62px] ">
+      <div className="bg-[#F0F0F0] xl:pt-[110px] md:pt-[70px] xl:pb-[165px] md:pb-[90px]">
+              <div className="max-w-container xl:mx-auto md:mx-12 mx-5 md:grid md:grid-cols-3 sm:grid-cols-2 gap-x-[62px] ">
           {
           blogs.map((blog, index) => {
               return (
@@ -36,7 +36,7 @@ const Blog = () => {
               }
         
           </div>
-          <div className="max-w-container mx-auto flex justify-end">
+          <div className="max-w-container xl:mx-auto md:mx-12 mx-5 flex justify-end">
             <p className="mt-[30px] font-bold text-base">MORE FROM THE BLLOG <IoIosArrowForward className='font-bold text-2xl inline-block'/></p>
               
           </div>

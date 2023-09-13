@@ -14,7 +14,7 @@ const Menu = () => {
           <div className="max-w-container mx-auto cross  ">
               
           </div>
-          <div className={`max-w-container  mx-auto ${!toggle ? "flex" : "flex-block"} justify-between items-center py-[27px]`}>
+          <div className={`max-w-container xl:mx-auto md:mx-12 mx-5 ${!toggle ? "flex" : "flex-block"} justify-between items-center py-[27px]`}>
               <div className="md:w-1/5">
                  <img src={logo} className={`max-w-[192px] ${!toggle ? "block" : "hidden"}`}/>
             </div>

@@ -9,7 +9,7 @@ export default {
       'pop': ['Poppins', 'sans-serif'],
     },
     maxWidth: {
-      'container': '1144px', 
+      'container': '1280px', 
     }, 
     colors: {
       'primary': '#F40404',

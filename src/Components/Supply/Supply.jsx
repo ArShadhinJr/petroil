@@ -7,7 +7,7 @@ import sup4 from '../../assets/supply/supply4.jpg'
 const Supply = () => {
   return (
     <div className="w-full">
-          <div className="max-w-container mx-auto pb-[100px] pt-[78px] md:flex  items-center">
+          <div className="max-w-container xl:mx-auto md:mx-12 mx-5 pb-[100px] pt-[78px] md:flex  items-center">
             <h3 className='text-5xl font-bold max-w-[289px] leading-normal	me-[178px]'>The biggest
 supplier on
                   the country</h3>
