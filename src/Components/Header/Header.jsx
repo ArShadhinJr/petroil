@@ -2,9 +2,9 @@ const Header = () => {
     return (
        
         <>
-             <header className="header bg-[#282828] text-[white]">
-            <div className="max-w-container xl:mx-auto md:mx-12 mx-5 md:flex">
-                <div className="md:w-9/12 sm:flex py-4">
+             <header className="header bg-[#282828] sm:block hidden text-[white]">
+            <div className="max-w-container xl:mx-auto md:mx-12 mx-5 sm:flex">
+                <div className="xl:w-9/12 sm:w-4/6 sm:flex py-4">
                     <div className="flex items-center me-[54px] relative md:after:block after:hidden after:content after:absolute after:top-0 after:right-[-27px] after:w-[1px] after:h-[16px] after:bg-[#5C6A92]">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <path d="M11.875 15H2.5L2.49812 5.56625L9.64437 10.5138C9.74887 10.5861 9.87293 10.6248 10 10.6248C10.1271 10.6248 10.2511 10.5861 10.3556 10.5138L17.5 5.56875V11.25H18.75V5C18.7495 4.66863 18.6176 4.35098 18.3833 4.11666C18.149 3.88235 17.8314 3.7505 17.5 3.75H2.5C2.16858 3.75033 1.85083 3.88213 1.61648 4.11648C1.38213 4.35083 1.25033 4.66858 1.25 5V15C1.2505 15.3314 1.38235 15.649 1.61666 15.8833C1.85098 16.1176 2.16863 16.2495 2.5 16.25H11.875V15ZM16.1244 5L10 9.24L3.87563 5H16.1244Z" fill="white" />
@@ -20,7 +20,7 @@ const Header = () => {
                         <p className="ms-3 text-xs">+896 120 5889 (Toll free)</p>
                     </div>
                 </div>
-                <div className="md:w-3/12 flex items-center md:justify-end justify-center gap-x-[47px]">
+                <div className="xl:w-3/12 sm:w-2/6 flex items-center sm:justify-end justify-center gap-x-[47px]">
                     <svg className="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
   <path d="M11.7231 9L12.1675 6.10437H9.38908V4.22531C9.38908 3.43313 9.77721 2.66094 11.0216 2.66094H12.2847V0.195625C12.2847 0.195625 11.1385 0 10.0425 0C7.75439 0 6.25877 1.38688 6.25877 3.8975V6.10437H3.71533V9H6.25877V16H9.38908V9H11.7231Z" fill="white"/>
                     </svg>
@@ -35,12 +35,12 @@ const Header = () => {
                     </svg>
                     
                 </div>
-            </div>
-            </header>
-            <div className="w-auto h-px bg-[#000]"></div>
+            </div><div className="w-auto h-px bg-[#000]"></div>
             <div className="w-auto h-[3px] bg-[#FFB800]"></div>
             <div className="w-auto h-px bg-[#000]"></div>
 
+            </header>
+            
         </>
     )
 }
