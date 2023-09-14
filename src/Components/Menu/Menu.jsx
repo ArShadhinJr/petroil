@@ -23,7 +23,7 @@ const Menu = () => {
                       
                   <p className={`font-bold xl:text-4xl md:text-2xl text-xl xl:hidden block text-white ${!toggle ? "order-1": "order-2"}`} onClick={() => setToggle( !toggle )}>{!toggle ? <FaBars /> : <RxCross2 />}</p>
                       <div className={`${!toggle ? "hidden" : "block "} xl:block min-w-[140px]`}>
-                        <img src={logo} className={`xl:max-w-[192px] md:max-w-[150px] sm:max-w-[120px] max-w-[90px]  ${!toggle ? "hidden" : "block"}`}/>
+                        <img src={logo} className={`xl:max-w-[192px] md:max-w-[150px] max-w-[120px]   ${!toggle ? "hidden" : "block"}`}/>
                         <ul className= {`text-[#fff] py-2 font-semibold xl:flex  gap-x-[47px] items-center justify-end `} >
                             <li className='hover:text-[#f1c3c9] py-2 '>
                                 Home
