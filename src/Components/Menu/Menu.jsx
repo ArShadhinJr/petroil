@@ -10,19 +10,20 @@ const Menu = () => {
 
   return (
       <>
-          <div className="menu bg-primary ">
+          <div className="bg-primary ">
+              <div className="h-px sm:hidden block bg-[#FFB800]"></div>
           <div className="max-w-container mx-auto cross  ">
               
           </div>
-          <div className={`max-w-container xl:mx-auto md:mx-12 mx-5 ${!toggle ? "flex" : "flex-block"} justify-between items-center py-[27px]`}>
+          <div className={`max-w-container xl:mx-auto md:mx-12 mx-5 ${!toggle ? "flex" : "flex-block"} justify-between items-center xl:py-[27px] md:py-[17px] sm:py-[14px] py-[10px]`}>
               <div className="xl:w-1/5">
-                 <img src={logo} className={`max-w-[192px] ${!toggle ? "block" : "hidden"}`}/>
+                 <img src={logo} className={`xl:max-w-[192px] md:max-w-[150px] sm:max-w-[120px] max-w-[90px]  ${!toggle ? "block" : "hidden"}`}/>
             </div>
                 <div className={`xl:w-4/5 ${!toggle ? "block" : "flex justify-between"}`} >
                       
-                  <p className={`font-bold text-4xl xl:hidden block text-white ${!toggle ? "order-1": "order-2"}`} onClick={() => setToggle( !toggle )}>{!toggle ? <FaBars /> : <RxCross2 />}</p>
+                  <p className={`font-bold xl:text-4xl md:text-2xl text-xl xl:hidden block text-white ${!toggle ? "order-1": "order-2"}`} onClick={() => setToggle( !toggle )}>{!toggle ? <FaBars /> : <RxCross2 />}</p>
                       <div className={`${!toggle ? "hidden" : "block "} xl:block min-w-[140px]`}>
-                        <img src={logo} className={`max-w-[192px] ${!toggle ? "hidden" : "block"}`}/>
+                        <img src={logo} className={`xl:max-w-[192px] md:max-w-[150px] sm:max-w-[120px] max-w-[90px]  ${!toggle ? "hidden" : "block"}`}/>
                         <ul className= {`text-[#fff] py-2 font-semibold xl:flex  gap-x-[47px] items-center justify-end `} >
                             <li className='hover:text-[#f1c3c9] py-2 '>
                                 Home
