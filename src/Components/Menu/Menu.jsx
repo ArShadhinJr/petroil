@@ -15,7 +15,7 @@ const Menu = () => {
           <div className="max-w-container mx-auto cross  ">
               
           </div>
-          <div className={`max-w-container xl:mx-auto md:mx-12 mx-5 ${!toggle ? "flex" : "flex-block"} justify-between items-center xl:py-[27px] md:py-[17px] sm:py-[14px] py-[10px]`}>
+          <div className={`max-w-container xl:mx-auto md:mx-12 mx-5 ${!toggle ? "flex" : "flex-block"} justify-between items-center xl:py-[27px] md:py-[17px] py-[14px]`}>
               <div className="xl:w-1/5">
                  <img src={logo} className={`xl:max-w-[192px] md:max-w-[150px] max-w-[120px]  ${!toggle ? "block" : "hidden"}`}/>
             </div>
@@ -50,7 +50,6 @@ const Menu = () => {
           </div>
           
           </div>
-      
       </>
   )
 }

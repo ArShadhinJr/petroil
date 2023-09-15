@@ -46,9 +46,7 @@ const Services = () => {
               {service.heading}
               
             </h1>
-            <button className="bg-primary border-2 border-[transparent] text-white px-[40px] py-[13px] font-semibold hover:bg-white hover:text-primary hover:border-primary hover:border-2 transition duration-500">
-              LEARN MORE
-            </button>
+            <button className="bg-primary border-2 border-[transparent] text-white xl:px-[40px] md:px-[35px] px-[28px] xl:py-[13px] md:py-[12px] py-[11px] md:text-base sm:text-sm text-xs font-semibold hover:bg-white hover:text-primary hover:border-primary hover:border-2 transition duration-500">LEARN MORE</button>
           </div>
         </div>
       ))}
