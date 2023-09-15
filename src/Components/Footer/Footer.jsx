@@ -5,8 +5,8 @@ import cert2 from '../../assets/fotter/Cert2.png';
 const Footer = () => {
     return (
         <footer className="bg-[#1F1F1F]">
-            <div className="flex pt-[149px] pb-[170px] max-w-container xl:mx-auto md:mx-12 mx-5">
-                <div className="w-5/12">
+            <div className="md:flex xl:pt-[149px] md:pt-[100px] sm:pt-[70px] pt-[40px] xl:pb-[170px] md:pb-[110px] sm:pb-[80px] pb-[45px] max-w-container xl:mx-auto md:mx-12 mx-5">
+                <div className="sm:w-5/12">
                     <img src={logo} className="" />
                     <div className='text-sm my-[33px] text-white'>
                         <div className='flex items-center mb-[15px]'>
@@ -78,7 +78,7 @@ const Footer = () => {
                         <li className='mt-[15px]'>Privacy Policy</li>
                     </ul>
                 </div>
-                <div className="w-3/12 flex text-base text-white justify-end mt-[32px]">
+                <div className="sm:w-3/12 sm:flex text-base text-white justify-end mt-[32px]">
                     <div>
                         <p className='font-bold mb-[21px]'>Certificate</p>
                     <div className='flex gap-x-5'>
@@ -88,8 +88,8 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="footer-down bg-[#282828] py-[43px]">
-                <div className="max-w-container xl:mx-auto md:mx-12 mx-5">
+            <div className="footer-down bg-[#282828] xl:py-[43px] md:py-[35px] sm:py-[25px] py-[15px] ">
+                <div className="max-w-container md:text-base sm:text-sm text-xs xl:mx-auto md:mx-12 mx-5">
                     <p className='text-secondary '>© Copyright 2022 by AltDesain Studio – All right reserved.
                 </p>
                 </div>

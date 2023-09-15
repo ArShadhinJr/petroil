@@ -4,14 +4,14 @@ const Map = () => {
   return (
     <div>
           <div>
-              <img src={map} className='w-full ' />
+              <img src={map} className='sm:w-full min-h-[250px] ' />
           </div>
           <div className="bg-primary py-[46px]">
-              <div className='max-w-container xl:mx-auto md:mx-12 mx-5 flex items-center'>
-                  <div className="w-4/5">
-                        <h3 className='text-white xl:text-4xl md:text-3xl text-2xl font-bold'>Want to join as member branch in your area?</h3>
+              <div className='max-w-container xl:mx-auto md:mx-12 mx-5 md:flex items-center text-center'>
+                  <div className="md:w-4/5">
+                        <h3 className='text-white xl:text-4xl md:text-3xl sm:text-2xl text-xl font-bold md:mb-0 mb-8'>Want to join as member branch in your area?</h3>
                   </div>
-                  <div className="w-1/5 flex justify-end ">
+                  <div className="md:w-1/5 md:flex justify-end ">
                       <button className='border px-[31px] py-[14px] bg-primary font-bold text-white hover:bg-[#fff] hover:text-primary'>
                           CONTACT
                       </button>
