@@ -35,7 +35,8 @@ const Header = () => {
                     </svg>
                     
                 </div>
-            </div><div className="w-auto h-px bg-[#000]"></div>
+            </div>
+            <div className="w-auto h-px bg-[#000]"></div>
             <div className="w-auto h-[3px] bg-[#FFB800]"></div>
             <div className="w-auto h-px bg-[#000]"></div>
 

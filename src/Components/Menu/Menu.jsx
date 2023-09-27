@@ -11,7 +11,7 @@ const Menu = () => {
   return (
       <>
           <div className="bg-primary ">
-              <div className="h-px sm:hidden block bg-[#FFB800]"></div>
+          <div className="h-px sm:hidden block bg-[#FFB800]"></div>
           <div className="max-w-container mx-auto cross  ">
               
           </div>

@@ -1,11 +1,15 @@
-import map from '../../assets/Maps.jpg'; 
+
 
 const Map = () => {
   return (
     <div>
-          <div>
-              <img src={map} className='sm:w-full min-h-[250px] ' />
-          </div>
+      <div className="mapouter">
+        <div className="gmap_canvas">
+        
+        <iframe className="gmap_iframe w-full h-[400px]"  src="https://maps.google.com/maps?width=1200&amp;height=400&amp;hl=en&amp;q=Chittagong University of Engineering and Technology (CUET)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+      
+        </div>
+      </div>
           <div className="bg-primary py-[46px]">
               <div className='max-w-container xl:mx-auto md:mx-12 mx-5 md:flex items-center text-center'>
                   <div className="md:w-4/5">
